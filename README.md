@@ -21,12 +21,12 @@ function of ESP32 in  project is to connect to available Bluetooth device(mobile
 1. ESP32 module
 2. arduino ide with esp32 board and library installed
 
-ESP32 can post geolocation data to any server by using user mobile network access.we have used two services to see the power of ESP32 
+## ESP32 can post geolocation data to any server by using user mobile network access.we have used two services to see the power of ESP32 
 1. ESP32 posting coordinates to FIREBASE
 2. ESP32 sending an alert message with coordinates through IFTTT service
 
 
-#### ESP32 posting coordinates to firebase
+# ESP32 posting coordinates to firebase
 we have uploaded ESP_GEO_LOCATION_ON_FIREBASE.ino just copy the code in arduino ide to see it in action.
 1. get the google apis keys -: https://console.developers.google.com/apis/dashboard?project=namanpractice&duration=PT1H
 2. make the database in firebase console and note the name of server -:
@@ -40,7 +40,7 @@ just upload ESP_GEO_LOCATION_ON_FIREBASE.ino uploaded above and happy code.
 ![twelve](https://user-images.githubusercontent.com/19189211/42413984-bcf35c60-8249-11e8-83be-2cb73d36f46e.png)
 ESP32 posting coordinates to firebase console
 
-#### ESP32 sending an alert message with coordinates through IFTTT service
+# ESP32 sending an alert message with coordinates through IFTTT service
 we are sending message with coordinates to all the people that we want.
 IFTTT is the free way to get all your apps and devices talking to each other.
 IFTTT -: https://ifttt.com/
@@ -95,6 +95,8 @@ alert message are going to user relative.
 
 # android application send alert to relative,emergencynumber and nearby policestation according to location
 #### Safety-app Safety app is the best app to inform and update your close ones if you are in an unsafe place. The app is the fastest and easiest way to update your close ones about your location and other details. To assure the security of your dear ones we have developed an android app. Which set up your own personal security network of friends and family. When your family members or friends are in danger with just tap of a button it sends a text sms along with their location to the selected contact number which are registered in the app . just single tap is enough no need of extra effort,just open the app to send the emergency message to the number saved earlier easy to use fully featured women and elder safety application pick a contact from contact list and you are good to go you will never feel unsafe with this app.Keep it installed and stay alert!
+
+# import safety-app above folder in android studio to see it in action
 
 1. Sign in and registration page:registration process is done by using your mobile number and a user suitable password 
 ![screenshot_2018-07-07-14-55-32](https://user-images.githubusercontent.com/19189211/42414116-2237a016-824c-11e8-81c1-ba34b720802f.png)
